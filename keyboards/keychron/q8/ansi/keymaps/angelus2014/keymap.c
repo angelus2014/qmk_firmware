@@ -59,25 +59,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 // clang-format on
-
-// bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-//     if (record->event.pressed) {
-//         switch (keycode) {
-//             case QK_MACRO_0:
-//                 SEND_STRING(SS_DOWN(X_LCTL)SS_DOWN(X_LALT)SS_DOWN(X_LGUI)SS_DOWN(X_RSFT)SS_TAP(X_E)SS_UP(X_RSFT)SS_UP(X_LGUI)SS_UP(X_LALT)SS_UP(X_LCTL));
-//                 return false;
-//             case QK_MACRO_1:
-//                 SEND_STRING(SS_DOWN(X_LCTL)SS_DOWN(X_LALT)SS_DOWN(X_LGUI)SS_DOWN(X_RSFT)SS_TAP(X_T)SS_UP(X_RSFT)SS_UP(X_LGUI)SS_UP(X_LALT)SS_UP(X_LCTL));
-//                 return false;
-//             case QK_MACRO_2:
-//                 SEND_STRING(SS_DOWN(X_LCTL)SS_DOWN(X_LALT)SS_DOWN(X_LGUI)SS_DOWN(X_RSFT)SS_TAP(X_O)SS_UP(X_RSFT)SS_UP(X_LGUI)SS_UP(X_LALT)SS_UP(X_LCTL));
-//                 return false;
-//         }
-//     }
-
-//     return true;
-// };
-
 void housekeeping_task_user(void) {
     housekeeping_task_keychron();
 }
