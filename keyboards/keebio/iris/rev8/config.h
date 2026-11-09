@@ -4,6 +4,7 @@
 #pragma once
 
 #define AM_HYPR HYPR_T(KC_CAPS)
+#define AM_HYPR2 HYPR_T(KC_QUOT)
 #define AM_LSFTA MT(MOD_LSFT,KC_A)
 #define AM_LCTLS MT(MOD_LCTL,KC_S)
 #define AM_LALTD MT(MOD_LALT,KC_D)
