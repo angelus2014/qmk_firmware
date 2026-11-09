@@ -5,4 +5,8 @@
     "usb": {
         "vid": "0xCB10"
     }
+    "features": {
+        "rgb_matrix": false
+    }
 }
+
